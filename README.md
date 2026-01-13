@@ -19,9 +19,22 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
   - **CMOS IC**
     - [**[HodgesDA]**], et.al., "_Analysis and Design of Digital Integrated Circuits_", Tata-McGraw Hill, 3rd Ed
     - [**[KangS]**], Leblebici and Kim C., "_CMOS Digital Integrated Circuits_, McGraw Hill, 4th Ed, 2015.
-    - [**Weste**] Weste, Neil, and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". Pearson Education, 2011
+    - [**[WesteN]**], and David Harris. "*CMOS VLSI Design: A Circuits and Systems Perspective*". 4Ed., Pearson Education, 2011
+      - [**[WesteMartin]**] : Highlighted notes from West and JohnsMartin for IC Fab and layout preparation.
+    - [**[JohnsMartin]**]: _Analog Integrated Circuit Design_, 2nd Ed.
     - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
     - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
+
+- **ARTICLES/DATASHEETS/WHITEPAPERS/ETC**
+  - Harald Pretl and Matthias Eberlein, _Fifty Nifty Variations of Two Transistor Circuits_, IEEE SSC Mag. ([PDF](https://www.dropbox.com/scl/fi/6q7plwha2kzx5n48umkm9/2021-PretlEberlein-50variationsOf2transitorCkts-IEEESSCmag-13-3.pdf?rlkey=njcd6j43486n9y56l6e6k0ivz&dl=0) )
+    - _An excellent set of CMOS circuits for practice_.
+- **ONLINE**
+  - [Silicon VLSI Lab GitHub Portal](https://github.com/silicon-vlsi) : All github portals related to courses, projects, CAD, etc. are hosted here.
+  - [Digital Temperature Monitor](https://github.com/silicon-efabless/tt06-silicon-tinytapeout-lm07): An excellent first Verilog project.
+
+
+# EE Refresher
+
 
 
 * * *
@@ -37,6 +50,9 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
 
 [HodgesDA]:       https://www.box.com/scl/fi/43orxdtdm6u4u5mq68mc2/HodgesJackson-DesignAndAnalysisOfDigitalIC-3Ed-McGraw-2005.pdf?rlkey=1awl7pw48611qd8cnru6az7x5&dl=0
 [KangS]:          https://www.box.com/scl/fi/qv87mhnbzkntthl3atjqh/Kang-CMOS-DigitalIC-4thIE-McGrawHill-2015.pdf?rlkey=k5jkk4k1b5zmfkwldt1eseetl&dl=0
+[WesteN]:         https://www.box.com/scl/fi/8i5pftaeux4x2kzj51cpr/Weste-Harris-CMOS-VLSI-design-Pearson-4thEd-2011.pdf?rlkey=g1efbminflmhqze5o2pc9rnl8&dl=0
+[WesteMartin]:    https://www.box.com/scl/fi/fm6tyicvb72crje7r51ey/Weste-JohnsMartin-CMOSprocessing-Layout-Highlight-annotate.pdf?rlkey=wqcjq4fhb79qwxkiue2gihdx9&dl=0
+[JohnsMartin]:    https://www.box.com/scl/fi/7jp5q4e3kvalnlbui7p5m/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?rlkey=exl7b2bmfgoiqyku6f0qeyk7a&dl=0
 [SCMOS]:                https://www.mosis.com/files/scmos/scmos.pdf
 [NGSpice]:              http://ngspice.sourceforge.net
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
