@@ -54,10 +54,10 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
     - Linearity properties
     - Thevenin and Norton equivalent.
     - Interface circuit design
-  - **Reading Assignment**: Chap-2 and 3 from [Thomas2023]
+  - **Reading Assignment**: Chap-2 and 3 from [[ThomasRE]]
   - **Problems**:
-    - Basic Circuits: [Thomas2023] (2.2, 2.5, 2.7(a,b), 2.10, 2.25, 2.26, 2.27, 2.31, 2.34, 2.35, 2.37, 2.49, 2.50)
-    - Circuit Analysis Techniques: [Thomas2023]
+    - Basic Circuits: [[ThomasRE]] (2.2, 2.5, 2.7(a,b), 2.10, 2.25, 2.26, 2.27, 2.31, 2.34, 2.35, 2.37, 2.49, 2.50)
+    - Circuit Analysis Techniques: [[ThomasRE]]
       - Node and Mesh Analysis: (3.1, 3.6, 3.8, 3.9, 3.11, 3.14)
       - Superposition: (3.33, 3.35, 3.36)
       - Thevenin and Norton: (3.39, 3.42, 3.45, 3.48, 3.52)
