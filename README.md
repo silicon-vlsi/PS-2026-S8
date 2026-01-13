@@ -43,11 +43,11 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
 
 # EE Refresher
 
-- **PASSIVE DEVICES**: Resistor, Capacitor and Inductors (RLC)  [[Chap-2: Passives](https://mixignal-press.github.io/ebook-ice1/passives.html)] [[Video-2021](https://www.youtube.com/watch?v=3SCYAH57Ixw)
+- **PASSIVE DEVICES**: Resistor, Capacitor and Inductors (RLC)  [[Chap-2: Passives](https://mixignal-press.github.io/ebook-ice1/passives.html)] [[Video-2021](https://www.youtube.com/watch?v=3SCYAH57Ixw)]
    - Derivation of IV char for resistive material.
    - Derivation of Capacitance using Gauss's Law.
    - Basic inductance calculation.
-- **BASIC CIRCUIT THEORY** [[Chap-3: Linear Circuit](https://mixignal-press.github.io/ebook-ice1/circuits.html)] [Video-2021](https://www.youtube.com/watch?v=OzlsThjjUDA)
+- **BASIC CIRCUIT THEORY** [[Chap-3: Linear Circuit](https://mixignal-press.github.io/ebook-ice1/circuits.html)] [[Video-2021](https://www.youtube.com/watch?v=OzlsThjjUDA)]
   - Basic circuit analysis: Voltage current division, circuit reduction.
   - Analysis techniques:
     - Node-voltage and mesh-analysis
