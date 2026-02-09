@@ -115,7 +115,14 @@ We are going to wire the above schemtic.
          - Signal Demultiplexer: `(LibraryBrowser->System->Signal Demultiplexer)` .
          - Connect the circuit as per the diagram shown:
             ![Circuit with heat sink](images/With_HeatSink.png)
-
+- **Probe Connection** :
+    - Click on the `Probe` , a Probe editor page will appear drag the MOSFET and the heat sink of the designed circuit inside the Editor page.
+    - Now keep The MOSFET first and heat sink second on the list (The order can be changed by clicking the upward and downward arrow.
+    - Select the necessary `Component Signals` for MOSFET(like MOSFET junction temperature,switching losses,conduction losses,etc) and Heat sink (Temperature).
+    - Connect the `Probe` to the Signal Demultiplexer.
+    - To change the number of outputs of Demultiplexer Click `Signal Demultiplexer->Number of output Ports`. 
+    - Set the number of output ports equal to the number of `Component Signals`.
+    - Now Connect the Probe to the scope through the Signal Demultiplexer.
         
 
 
