@@ -83,7 +83,38 @@ We are going to wire the above schemtic.
      - Enter the Energy values by selecting the block corresponding to the voltage and current values.
      - The graph will automatically display the 3D structure according to the given values.
      - Below shown image is the graph of Turn-on loss:
-   
+      ![Turn-on loss](images/Turn-on_loss.png)
+
+     - Similarly for turn-off loss follow the same guidelines mentioned above.
+     - Below shown image is the graph of Turn-on loss:
+      ![Turn-off loss](images/Turn-off_loss.png)
+
+     - For `CONDUCTION LOSS` : To give multiple value in the table for Temperature/Current `(Right click on 25'C/0A->New temperature values/Current Values)`.
+     - Enter the voltage values by selecting the block corresponding to the tempearture and current values.
+     - The value of `V_on` can be determined using the formula: `V_on = I_on * R_ds`.
+     - The value of R_ds for a particular temperature can be obtained from the datasheet and `I_on = I_d` (obtained from the datasheet).
+     - Below shown image is the graph of Conduction loss:
+       ![Conduction loss](images/Conduction_loss.png)
+
+     - To save the description file Click `(Save->file name)` with an `.xml` extension in the desktop,creating a separte folder.
+     - To add the description in PLECS click `(File->Plecs Preferences->Thermal->Add the folder by clicking + icon->Close)`.
+     - Click on the switch `(Thermal->Button beside the Thermal Description->From library->File name->OK)`.
+     - Set the initial temperature at 25 degree C and thermal interference resistance as 0.2 .
+     - **Select Thermal Library Elements** :
+         - Click `(LibraryBrowser->Thermal->Components-> Heat sink)`.
+         - Placed the Heat sink on the switch.
+         - thermal resistor(Rth): `(LibraryBrowser->Thermal->Components-> Thermal Resistor)` .
+         - Constant Temperature (Grounded) :`(LibraryBrowser->Thermal->Sources-> Constant Temperature (Grounded))` .
+         - Heat flow meter: `(LibraryBrowser->Thermal->Meter->Heat flow meter)` .
+         - Probe : `(LibraryBrowser->System->Probe)` .
+         - Signal Demultiplexer: `(LibraryBrowser->System->Signal Demultiplexer)` .
+         - Connect the circuit diagram shown:
+            ![Circuit with heat sink](images/Conduction_loss.png)
+
+        
+
+
+     
     
 
 
