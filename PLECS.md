@@ -96,20 +96,25 @@ We are going to wire the above schemtic.
      - Below shown image is the graph of Conduction loss:
        ![Conduction loss](images/Conduction_loss.png)
 
+     - For `Thermal Chain` :
+     - Enter the type as per the datasheet taken.
+     - Set number of elements as per requirement (here 3)
+     - Now enter the corresponding values (as per the datasheet) .
+
      - To save the description file Click `(Save->file name)` with an `.xml` extension in the desktop,creating a separte folder.
      - To add the description in PLECS click `(File->Plecs Preferences->Thermal->Add the folder by clicking + icon->Close)`.
      - Click on the switch `(Thermal->Button beside the Thermal Description->From library->File name->OK)`.
      - Set the initial temperature at 25 degree C and thermal interference resistance as 0.2 .
      - **Select Thermal Library Elements** :
          - Click `(LibraryBrowser->Thermal->Components-> Heat sink)`.
-         - Placed the Heat sink on the switch.
+         - Placed the Heat sink on the switch(with the diode).
          - thermal resistor(Rth): `(LibraryBrowser->Thermal->Components-> Thermal Resistor)` .
          - Constant Temperature (Grounded) :`(LibraryBrowser->Thermal->Sources-> Constant Temperature (Grounded))` .
          - Heat flow meter: `(LibraryBrowser->Thermal->Meter->Heat flow meter)` .
          - Probe : `(LibraryBrowser->System->Probe)` .
          - Signal Demultiplexer: `(LibraryBrowser->System->Signal Demultiplexer)` .
-         - Connect the circuit diagram shown:
-            ![Circuit with heat sink](images/Conduction_loss.png)
+         - Connect the circuit as per the diagram shown:
+            ![Circuit with heat sink](images/With_HeatSink.png)
 
         
 
