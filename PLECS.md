@@ -108,7 +108,7 @@ We are going to wire the above schemtic.
      - To save the description file Click `(Save->file name)` with an `.xml` extension in the desktop,creating a separte folder.
      - To add the description in PLECS click `(File->Plecs Preferences->Thermal->Add the folder by clicking + icon->Close)`.
      - Click on the switch `(Thermal->Button beside the Thermal Description->From library->File name->OK)`.
-     - Set the initial temperature at 25 degree C and thermal interference resistance as 0.2 .
+     - Set the initial temperature at 25°C and thermal interference resistance as 0.2 .
      - **Select Thermal Library Elements** :
          - Click `(LibraryBrowser->Thermal->Components-> Heat sink)`.
          - Placed the Heat sink on the switch(with the diode).
