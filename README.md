@@ -31,6 +31,7 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
       - [**[WesteMartin]**] : Highlighted notes from West and JohnsMartin for IC Fab and layout preparation.
     - [**[JohnsMartin]**], _Analog Integrated Circuit Design_, 2nd Ed.
     - [**[AllenHolberg]**], _CMOS Analog Circuit Design_, 3rd Ed., Oxford
+    - [**[MurmannJesper]**] Jespers, P. , Murmann, B. "_Systematic Design of Analog CMOS Circuits: Using Pre-Computed Lookup Tables_". Cambridge University Press, 2017.
     - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
     - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
 
@@ -81,6 +82,7 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
 [WesteMartin]:    https://www.box.com/scl/fi/fm6tyicvb72crje7r51ey/Weste-JohnsMartin-CMOSprocessing-Layout-Highlight-annotate.pdf?rlkey=wqcjq4fhb79qwxkiue2gihdx9&dl=0
 [JohnsMartin]:    https://www.box.com/scl/fi/7jp5q4e3kvalnlbui7p5m/JohnsMartinCarusone-AnalogICDesign-2ndEd-Wiley-2012.pdf?rlkey=exl7b2bmfgoiqyku6f0qeyk7a&dl=0
 [AllenHolberg]:   https://www.box.com/scl/fi/bxv3gagfq6p7t88runbx1/Allen-Holberg-CMOS-AnalogCircuitDesign-3rdEd-Oxford-2012.pdf?rlkey=jqjyleetec34oe6upvxu7lfox&dl=0
+[MurmannJesper]: https://www.box.com/scl/fi/zgbsqmfcdnhd3vbwymdtw/MurmannJespers-SystematicDesignOfAnalogCMOScircuits-CUP-2017.pdf?rlkey=h5avs36z4atnxezx6xdfk7hdg&st=px87c06u&dl=0
 [SCMOS]:                https://www.mosis.com/files/scmos/scmos.pdf
 [NGSpice]:              http://ngspice.sourceforge.net
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
