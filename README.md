@@ -33,8 +33,9 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
     - [**[AllenHolberg]**], _CMOS Analog Circuit Design_, 3rd Ed., Oxford
     - [**[MurmannJesper]**] Jespers, P. , Murmann, B. "_Systematic Design of Analog CMOS Circuits: Using Pre-Computed Lookup Tables_". Cambridge University Press, 2017.
     - [**[Murmann]**] Murmann, Borris, "Analysis and Design of Elementary MOS Amplifier Stages" (Free Access)
-    - [**Uyemura**] Uyemura, John P. "*CMOS Logic Circuit Design*". Springer, 2007
-    - [**Baker**] Baker, R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
+      - [**New Online Version**](https://bmurmann.github.io/COCOA/contents/partI/partI.1.html)
+    - [**[Uyemura]**], John P. "*CMOS Logic Circuit Design*". Springer, 2007
+    - [**[Baker]**], R. Jacob. "*CMOS: Circuit Design, Layout, and Simulation*". John Wiley & Sons, 2008
 
 - **ARTICLES/DATASHEETS/WHITEPAPERS/ETC**
   - Harald Pretl and Matthias Eberlein, _Fifty Nifty Variations of Two Transistor Circuits_, IEEE SSC Mag. ([PDF](https://www.dropbox.com/scl/fi/6q7plwha2kzx5n48umkm9/2021-PretlEberlein-50variationsOf2transitorCkts-IEEESSCmag-13-3.pdf?rlkey=njcd6j43486n9y56l6e6k0ivz&dl=0) )
@@ -85,6 +86,8 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
 [AllenHolberg]:   https://www.box.com/scl/fi/bxv3gagfq6p7t88runbx1/Allen-Holberg-CMOS-AnalogCircuitDesign-3rdEd-Oxford-2012.pdf?rlkey=jqjyleetec34oe6upvxu7lfox&dl=0
 [MurmannJesper]: https://www.box.com/scl/fi/zgbsqmfcdnhd3vbwymdtw/MurmannJespers-SystematicDesignOfAnalogCMOScircuits-CUP-2017.pdf?rlkey=h5avs36z4atnxezx6xdfk7hdg&st=px87c06u&dl=0
 [Murmann]: https://github.com/bmurmann/Book-on-MOS-stages
+[Uyemura]: https://www.dropbox.com/scl/fi/rblfckfj6b2bds655ljw7/Uyemura-CMOS-LogicCircuitDesign-1999-Springer.pdf?rlkey=n18cw2raqi95rsoxb3gr478oj&dl=0
+[Baker]: https://www.dropbox.com/scl/fi/h3nlnwc1wxho6e6naspiz/Baker-CMOScircuitDesignLayoutSimulation-3rdEd-2010.pdf?rlkey=85voahejqfzixpi317s08lkf4&dl=0
 [SCMOS]:                https://www.mosis.com/files/scmos/scmos.pdf
 [NGSpice]:              http://ngspice.sourceforge.net
 [NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
