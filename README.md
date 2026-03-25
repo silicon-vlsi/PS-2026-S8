@@ -40,6 +40,9 @@ This is the portal for all 2026 (Sem-8) Practice School students. Learning mater
 - **ARTICLES/DATASHEETS/WHITEPAPERS/ETC**
   - Harald Pretl and Matthias Eberlein, _Fifty Nifty Variations of Two Transistor Circuits_, IEEE SSC Mag. ([PDF](https://www.dropbox.com/scl/fi/6q7plwha2kzx5n48umkm9/2021-PretlEberlein-50variationsOf2transitorCkts-IEEESSCmag-13-3.pdf?rlkey=njcd6j43486n9y56l6e6k0ivz&dl=0) )
     - _An excellent set of CMOS circuits for practice_.
+  - A. Sheikholeslami, "“Noise and Distortion, Part I” [Circuit Intuitions]," in IEEE Solid-State Circuits Magazine, vol. 16, no. 3, pp. 15-26, Summer 2024 [Link](https://ieeexplore.ieee.org/document/10645823)
+  - A. Sheikholeslami, "“Noise and Distortion, Part II” [Circuit Intuitions]," in IEEE Solid-State Circuits Magazine, vol. 16, no. 4, pp. 8-11, Fall 2024, [Link](https://ieeexplore.ieee.org/document/10753010)
+    
 - **ONLINE**
   - [Silicon VLSI Lab GitHub Portal](https://github.com/silicon-vlsi) : All github portals related to courses, projects, CAD, etc. are hosted here.
   - [Digital Temperature Monitor](https://github.com/silicon-efabless/tt06-silicon-tinytapeout-lm07): An excellent first Verilog project.
