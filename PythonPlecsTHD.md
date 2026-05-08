@@ -1,3 +1,12 @@
+# Instructions
+1. Install Jupyter Notebook and Python Software in your device.  
+2. Create a new file in Jupyter by clicking `New->New File`.  
+3. Open the file in `Plecs` which would be linked with `Python`.  
+4. In the Plecs Simulation window Click:`File -> PLECS Preferences -> General`.  
+5. Select the `RPC Interface Port`,the tick box will turn blue.And set the Interface as `1080` in the box beside the `RPC Interface Port`.  
+6. Set an `Output Signal` block from `Library Browser` and `Multiplexer` from `Library Browser`.  
+7. Connect the output of the `Scope` whose plot you want to obtain to `Multiplexer` and the output of `Multiplexer` to `Output Signal`.  
+
 # Import libraries
 import pandas as pd  
 import matplotlib.pyplot as plt  
@@ -5,11 +14,10 @@ import numpy as np
 import os  
 import xmlrpc.client as xml  
 
-# Change the working directory
-os.chdir(r'D:\Work\Simulation\Plecs\T-Type')
+
 # choose the simulation file
 file_type = '.plecs'  
-model_name = 'CCM'  
+model_name = '  '  
 
 # connect plecs to python
 plecs = xml.Server('http://localhost:1080/RPC2').plecs
@@ -19,24 +27,20 @@ plecs.load(model_name+file_type)
 # change the simulation settings
 plecs.set(model_name,'TimeSpan','0.5')
 
-# initial model parameters
-Vdc = 800
-Vac = 230
-fsw = 100e3
-L = 330e-6
-Cdc = 1280e-6
-P = 3600
-
-Imax = 3*P/Vdc*(3.0/2.0)**0.5
-Rdc = Vdc**2/(Imax*Vac)
-i = 0
-Kp = L*fsw/3
-Ki = 1e-4*fsw/3
-
-init = ''
+# initializing model parameters
+Vdc = 800  
+fsw = 100e3  
+L = 330e-6  
+P = 3600  
+Imax = 3*P/Vdc*(3.0/2.0)**0.5  
+Rdc = Vdc**2/(Imax*Vac)  
+i = 0  
+Kp = L*fsw/3  
+Ki = 1e-4*fsw/3  
+init = ' '  
 params = {'P' : P,'Cdc' : Cdc,'Vdc' : Vdc,'Vac' : Vac,
       'fsw' : fsw,'L' : L,'Cf' : Cf,'ESR' : 1e-4,
-      'I_max' : Imax,'Rdc' : Rdc,'Run' : i,'Kp' : Kp, 'Ki' : Ki,'w' : 5}
+      'I_max' : Imax,'Rdc' : Rdc,'Run' : i,'Kp' : Kp, 'Ki' : Ki,'w' : 5}  
 
 # write the parameters into PLECS' Initialization Command 
 for key,val in params.items():
