@@ -1,15 +1,15 @@
 # Import libraries
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import os
-import xmlrpc.client as xml
+import pandas as pd  
+import matplotlib.pyplot as plt  
+import numpy as np  
+import os  
+import xmlrpc.client as xml  
 
 # Change the working directory
 os.chdir(r'D:\Work\Simulation\Plecs\T-Type')
 # choose the simulation file
-file_type = '.plecs'
-model_name = 'CCM'
+file_type = '.plecs'  
+model_name = 'CCM'  
 
 # connect plecs to python
 plecs = xml.Server('http://localhost:1080/RPC2').plecs
