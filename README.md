@@ -1,12 +1,15 @@
 # Practice School 2026
 
-This is the portal for all 2026 (Sem-8) Practice School students. Learning materials, assignments, announcements, etc will be shared on this portal.
+This is the portal for all 2026-27 (Sem-7/8) Practice School students. Learning materials, assignments, announcements, etc will be shared on this portal.
 
 # Getting Started
 
 - Students with NO Linux exeperience may follow these [8 Lessons in Linux](https://github.com/silicon-vlsi-org/module-cs3-301) to get started.
-- If you haven't, install **Windows Subsystem for Linux (WSL)** on your Windows 10/11. **Follow this [page](https://github.com/silicon-vlsi-org/eda-wsl2)**
-- If you don't have one yet, create a [GitHub](https://github.com) account. Create a Git Repository with the name `PS-2025-S8-<username>` where, username is First initial and Surname or Surname Initial and First Name. For eg. if name is _Subash Bose_, the repossitory name should be `PS-2025-S8-sbose`
+- **Update you Windows Subsytem for Linux (WSL)** by running `wsl --update` on your powershell (as admin) window. If WSL is not installed, type `wsl --install` on your powershell (as admin) to install it.
+- For most part we will use the open-source tools from [IIC-OSIC Docker](https://github.com/iic-jku/iic-osic-tools). Follow the documentation to install the docker container on your workstation.
+  - `powershell -c "irm https://osic.tools/install.ps1 | iex"` is the single line installer which installs all the required software and settings. ❗**WARNING**❗the docker container is **~20GB**. Make sure you have a good power and internet connection.
+  - `git clone --depth=1 https://github.com/iic-jku/iic-osic-tools.git` will clone the IIC-OSIC tools repo. Run the `start_x.bat` to start a graphics capable terminal.
+- If you don't have one yet, create a [GitHub](https://github.com) account. Create a Git Repository with the name `PS-2027-S8-<username>` where, username is First initial and Surname or Surname Initial and First Name. For eg. if name is _Subash Bose_, the repossitory name should be `PS-2027-S8-sbose`
 - Get familiar with editor `vim` and `git`. As an exercise for `vim` and `git`, open your README.md and create a documentation for Capacitor section and insert a table with the capacitor properties.
   - [Tutorial from Perplexity](https://www.perplexity.ai/search/create-a-quick-vim-editor-tuto-OOEC6K37R9a6DdMBq4TTew) : Short tutorials on `vim`, `git` and writing equations in markdown
 
