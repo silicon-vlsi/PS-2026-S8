@@ -13,6 +13,11 @@ This is the portal for all 2026-27 (Sem-7/8) Practice School students. Learning 
 - Get familiar with editor `vim` and `git`. As an exercise for `vim` and `git`, open your README.md and create a documentation for Capacitor section and insert a table with the capacitor properties.
   - [Tutorial from Perplexity](https://www.perplexity.ai/search/create-a-quick-vim-editor-tuto-OOEC6K37R9a6DdMBq4TTew) : Short tutorials on `vim`, `git` and writing equations in markdown
 
+# Foundation Review
+
+- You MUST review the [EE Refresher Section below](#ee-refresher) [2 days]
+-  
+
 # Resources
 
 - **TEXT/REFERENCES**
