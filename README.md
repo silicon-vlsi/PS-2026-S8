@@ -15,8 +15,10 @@ This is the portal for all 2026-27 (Sem-7/8) Practice School students. Learning 
 
 # Foundation Review
 
-- You MUST review the [EE Refresher Section below](#ee-refresher) [2 days]
--  
+- You MUST review the [EE Refresher Section below](#ee-refresher) along with the problems. [2 days]
+- Practice problems from [Electric Circuits problem sheet](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/content/assignment-Electrical-Circuits.pdf) [1 day]
+- Practice problems from [RC Circuit problem sheet](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/content/assignment-RC-Circuit.pdf) [1 day]
+- Solve two problems everyday from Harald Pretl and Matthias Eberlein, _Fifty Nifty Variations of Two Transistor Circuits_, IEEE SSC Mag. ([PDF](https://www.dropbox.com/scl/fi/6q7plwha2kzx5n48umkm9/2021-PretlEberlein-50variationsOf2transitorCkts-IEEESSCmag-13-3.pdf?rlkey=njcd6j43486n9y56l6e6k0ivz&dl=0) )
 
 # Resources
 
